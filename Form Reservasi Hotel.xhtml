@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Hotel Tian Mambu</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Atma Hotel</h2>
+    <!-- <h3>Sedia guling hidup</h3> -->
+
+    <form action="" method="post">
+
+      <fieldset>
+        <legend>Personal Data</legend>
+        <label for="name">1. Name</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="gender">2. Gender</label>
+        <input type="text" id="gender" name="gender" />
+
+        <label for="email">3. Email Address</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="telp">4. Telp Number</label>
+        <input type="tel" id="telp" name="telp" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Reservation Room Form</legend>
+
+        <label for="reservator">1. Reservator Name</label>
+        <input type="text" id="reservator" name="reservator" />
+
+        <label for="booking_date">2. Booking Date</label>
+        <input type="date" id="booking_date" name="booking_date" />
+
+        <label for="room_type">3. Room Type</label>
+        <select id="room_type" name="room_type">
+          <option>Deluxe</option>
+          <option>Suite</option>
+          <option>Standard</option>
+        </select>
+
+        <label for="bed_type">4. Bed Type</label>
+        <select id="bed_type" name="bed_type">
+          <option>Single bed</option>
+          <option>Double bed</option>
+        </select>
+
+        <label>5. Breakfast</label>
+        <div class="radio-group">
+          <label><input type="radio" name="breakfast" value="With Breakfast" /> With Breakfast</label>
+          <label><input type="radio" name="breakfast" value="Without Breakfast" /> Without Breakfast</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment</legend>
+
+        <label for="checkin">1. Check in Date</label>
+        <input type="date" id="checkin" name="checkin" />
+
+        <label for="checkout">2. Check out Date</label>
+        <input type="date" id="checkout" name="checkout" />
+
+        <label for="payment">3. Payment Method</label>
+        <select id="payment" name="payment">
+          <option>Cash</option>
+          <option>Credit Card</option>
+          <option>Transfer</option>
+        </select>
+      </fieldset>
+
+      <div class="submit-btn">
+        <input type="submit" value="Submit" />
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>
